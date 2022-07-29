@@ -1,5 +1,5 @@
 [build]
-  command = "npm run netlify-build"
+  command = "netlify dev"
 
 [template.environment]
   DAILY_API_KEY = "6593fe3b9e31cfe9c85afb990b52cf96fb53cfbf7f180088ad171edaa53de935"
