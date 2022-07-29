@@ -1,5 +1,7 @@
 # Daily Prebuilt UI demo
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4880e9bc-d909-4e91-ac23-70948bf0adfe/deploy-status)](https://app.netlify.com/sites/magenta-salmiakki-d50545/deploys)
+
 This demo highlights [Daily's prebuilt UI](https://www.daily.co/blog/prebuilt-ui/), and how it can be used to embed a video chat widget in a website or app. The demo also illustrates how to use [daily-js methods](https://docs.daily.co/reference#instance-methods) and [events](https://docs.daily.co/reference#events) to build custom interfaces outside of the callframe that control the call.
 
 Check out a live version of the demo [here](https://prebuilt-ui.netlify.app/).
