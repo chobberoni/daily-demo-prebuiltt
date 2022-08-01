@@ -56,17 +56,17 @@ async function createRoom() {
     },
   };
 
-  // try {
-  //   let response = await fetch(newRoomEndpoint, {
-  //       method: 'POST',
-  //       body: JSON.stringify(options),
-  //       mode: 'cors',
-  //     }),
-  //     room = await response.json();
-  //   return room;
-  // } catch (e) {
-  //   console.error(e);
-  // }
+  try {
+    let response = await fetch(newRoomEndpoint, {
+        method: 'POST',
+        body: JSON.stringify(options),
+        mode: 'cors',
+      }),
+      room = await response.json();
+    return room;
+  } catch (e) {
+    console.error(e);
+  }
 
   // Comment out the above and uncomment the below, using your own URL
   // if you prefer to test with a hardcoded room
