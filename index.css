@@ -1,11 +1,12 @@
 :root {
-  --grey-lightest: #f7f9fa;
-  --white: #ffffff;
-  --grey: #c8d1dc;
+  --grey-lightest: #C9E4CA;
+  --eton: #87BBA2;
+  --white: #f7f7f7;
+  --grey: #C9E4CA;
   --dark-grey: #6b7785;
   --dark-blue: #1f2d3d;
   --dark-blue-border: #2b3f56;
-  --green: #72cc18;
+  --green: #4c8a0d;
   --red-dark: #BB0C0C; 
   --font-family: GraphikRegular, 'Helvetica Neue', Sans-Serif;
 }
@@ -36,8 +37,8 @@ body {
   position: fixed;
   z-index: 1000;
   top: 0;
-  box-shadow: inset 0px -1px 0px var(--grey);
-  border-bottom: 1px solid var(--grey);
+  box-shadow: inset 0px -1px 0px var(--dark-grey);
+  border-bottom: 1px solid var(--dark-grey);
   display: flex;
   align-items: center;
   justify-content: space-between;
