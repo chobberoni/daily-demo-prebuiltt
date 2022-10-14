@@ -113,6 +113,11 @@ async function joinCall() {
     await callFrame.join({
       url: url,
       showLeaveButton: true,
+      theme: {
+        colors: {
+          accent: '#FFFF00',
+        },
+      },
     });
   } catch (e) {
     if (
