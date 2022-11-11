@@ -115,7 +115,16 @@ async function joinCall() {
       showLeaveButton: true,
       theme: {
         colors: {
-          accent: '#FFFF00',
+          accent: '#2708A0',
+          accentText: '#FFFFFF',
+          background: '#E5D0CC',
+          backgroundAccent: '#BFACB5',
+          baseText: '#000000',
+          border: '#172121',
+          mainAreaBg: '#E5D0CC',
+          mainAreaBgAccent: '#7F7B82',
+          mainAreaText: '#2708A0',
+          supportiveText: '#808080',
         },
       },
     });
