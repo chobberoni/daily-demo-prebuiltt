@@ -149,7 +149,7 @@ function toggleLobby() {
 
 function toggleControls() {
   const callControls = document.getElementById('call-controls-wrapper');
-  callControls.classList.toggle('hide');
+  //callControls.classList.toggle('hide');
 }
 
 function toggleCallStyling() {
