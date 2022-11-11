@@ -91,7 +91,7 @@ async function createRoomAndStart() {
   }
   copyUrl.value = room.url;
 
-  // showDemoCountdown();
+  showDemoCountdown();
 
   try {
     callFrame.join({
