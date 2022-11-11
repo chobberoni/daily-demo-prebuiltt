@@ -70,7 +70,7 @@ async function createRoom() {
 
   // Comment out the above and uncomment the below, using your own URL
   // if you prefer to test with a hardcoded room
-  return {url: "https://coreyhobbs.daily.co/small-calls"}
+  return {url: "https://coreyhobbs.daily.co/test-room"}
 }
 
 async function createRoomAndStart() {
